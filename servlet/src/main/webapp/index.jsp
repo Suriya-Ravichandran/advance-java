@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -7,6 +8,7 @@
 </head>
 <body>
 	<h1 class="ms-3 text-danger">Home Page</h1>
-	<a href="first" class="ms-3 btn btn-primary">View Servlet</a>
+	<p class="ms-3">${indexContent}!</p>
+	<a href="about" class="ms-3 btn btn-primary">View Servlet</a>
 </body>
 </html>
