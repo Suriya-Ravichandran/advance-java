@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page isELIgnored="false" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
 <meta charset="UTF-8">
@@ -8,6 +10,8 @@
 <body>
 	<h1 class="ms-3 text-danger">About Page</h1>
 	<p class="ms-3">${content}!</p>
-	<a href="/servlet" class="ms-3 btn btn-primary">Back to Home</a>
+	<img class="img ms-3 mb-3" alt="" src="image/download.jpg" style="height:200px;width:200px;">
+	<br>
+	<a href="home" class="ms-3 btn btn-primary">Back to Home</a>
 </body>
 </html>

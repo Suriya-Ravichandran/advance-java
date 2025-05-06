@@ -46,7 +46,7 @@ public class Firstservlet extends HttpServlet {
 				+ "The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.";
 		req.setAttribute("content", content);
 		
-		RequestDispatcher render= req.getRequestDispatcher("about.jsp");
+		RequestDispatcher render= req.getRequestDispatcher("WEB-INF/views/about.jsp");
 		render.forward(req, resp);
 	}
 }
