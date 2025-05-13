@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>About us</title>
+<title>Contact us</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<h1 class="ms-3 text-danger">Contact Page</h1>
 	<div class="container">
-		<form action="viewdata" method="post">
+		<form action="submit" method="post">
 		<div class="mb-3">
 		  <label for="exampleFormControlInput1" class="form-label">Email address</label>
 		  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
